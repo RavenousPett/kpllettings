@@ -1,0 +1,500 @@
+.kc_row.kc_row_inner > div.kc_column_inner > div > .kc_row_inner{
+    width: calc(100% + 30px);
+}
+// header
+header {
+    background: #fff;
+    .menu{
+        margin:0;
+        li{
+            i{
+                @include rtl-margin-right(8px);
+                font-size: 18px;
+            }
+            > a{
+                display: inline-block;
+                background: transparent !important;
+                padding: 0;
+            }
+            padding:0;
+            line-height: $line-height-base;
+            vertical-align: middle;
+            &:after{
+                content: "|";
+                padding: 0 20px;
+            }
+            &:last-child:after{
+                display: none;
+            }
+        }
+    }
+    .list-inline{
+        margin: 0;
+        line-height: $line-height-base;
+    }
+    .user-menu{
+        .navbar{
+            border:none;
+            margin: 0;
+            min-height: 0;
+        }
+        .navbar-collapse{
+            padding: 0;
+        }
+    }
+    @media (min-width:992px){
+        &.half-map{
+            position: fixed !important;
+            top:0;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+.half-map{
+    #apus-header{
+        border-bottom: 1px solid $border-color;
+    }
+    @media (min-width:992px){
+        #apus-header{
+            position: fixed !important;
+            top:0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    .apus-footer{
+        display: none;
+    }
+}
+/*------------------------------------*\
+    Topbar
+\*------------------------------------*/
+.wrapper-container{
+    position: relative;
+}
+.#{$app-prefix}-topbar{
+    padding:$topbar-padding;
+    background: $topbar-bg;
+    color: $topbar-color;
+    font-family: $font-family-sans-serif;
+    @include font-size(font-size, $topbar-font-size);
+    line-height: 1.3;
+    a{
+        color: $topbar-link-color;
+        &:hover{
+            color: $topbar-link-hover-color;
+        }
+    } 
+    .widget{
+        margin: 0;
+    }
+}
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+// header mobile
+.header-mobile{
+    padding: 5px 0;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    @include transition(all 0.5s ease 0s);
+    .topbar-inner-right,
+    .topbar-inner-left{
+        margin: 5px 0 0;
+    }
+    .btn.dropdown-toggle,
+    .btn.offcanvas{
+        border:none;
+        padding: 8px;
+        font-size: 15px;
+        color: #000;
+        background: transparent;
+        &:hover,&:active,&:focus{
+            color: #000;
+            background: transparent;
+        }
+    }
+    .apus-search-form{
+        min-width: 300px;
+        .select-category{
+          display: none;
+        }
+    }
+}
+.sticky-header{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    @include transition(all 0.8s ease 0s);
+    @include box-shadow(0 1px 12px 0  #17181a);
+    @include translateY(0);
+    &.sticky-header-hidden{
+        @include translateY(-110%);
+    }
+}
+##{$app-prefix}-header{
+    position: relative;
+    margin: 0;
+    z-index: 99;
+    @include transition(all 0.3s ease 0s);
+    color: $header-color ;
+    .widget{
+        margin: 0;
+    }
+    .header-main{
+        padding:18px 0;
+    }
+    // Menu Fixed
+    .menu_fixed{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        background: $white;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: $container-large-desktop;
+        padding: 0 ($grid-gutter-width + 10);
+        @include transition(all 0.8s ease 0s);
+    }
+}
+.header-v2{
+    .apus-topbar{
+        background: #1c1c1c;
+        color: #cccccc;
+    }
+    a{
+        color: #888888;
+        &:hover,&:active{
+            color: $theme-color;
+        }
+    }
+    .action-menu{
+        @include size(42px,42px);
+        display: inline-block;
+        line-height: 40px;
+        text-align: center;
+        background: #fff;
+        font-size: 16px;
+        border:1px solid $header-color;
+        @include transition(all 0.3s ease-in-out 0s);
+        &:active,
+        &:hover{
+            background:$theme-color-second;
+            border-color: $theme-color-second;
+            color: #fff;
+        }
+        &.active{
+            background:$brand-danger;
+            border-color: $brand-danger;
+            color: #fff;
+        }
+    }
+    .wrapper-menu{
+        @include rtl-margin-left(40px);
+        margin-top: 11px;
+    }
+    .user-login{
+        margin:20px 0 0;
+    }
+    .main-menu,
+    .user-login{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
+.header-v3{
+    .btn-submit{
+        padding: $padding-base-vertical 20px;
+        margin-top: 5px;
+        @include rtl-margin-left(20px);
+    }
+}
+/*------------------------------------*\
+    Slide Shows
+\*------------------------------------*/
+.rev_slider_wrapper{
+    cursor: pointer;
+}
+/*------------------------------------*\
+    Breadcrumb
+\*------------------------------------*/
+.#{$app-prefix}-breadcrumb{
+    @include box-size($breadcrumb-layout-bg, $breadcrumb-padding-top, $breadcrumb-padding-bottom);
+    @include border-radius(0);
+    margin: $breadcrumb-margin;
+    text-align: $breadcrumb-alignment;
+    font-size: $breadcrumb-font-size ;
+    .breadcrumb-title{
+        color: $breadcrumb-color;
+        margin: 0;
+        font-weight: $breadcrumb-title-font-weight;
+        @include font-size(font-size, $breadcrumb-title-font-size);
+    }
+    nav{
+        @include rtl-text-align-left();
+        line-height: $breadcrumb-line-height;
+        a{
+            color: $breadcrumb-link-color;
+        } 
+    }
+}
+/*------------------------------------*\
+    Container
+\*------------------------------------*/
+.#{$app-prefix}-mainbody{
+    @include box-size($container-bg, $container-padding-top, $container-padding-bottom);
+}
+
+/*------------------------------------*\
+    Pagination
+\*------------------------------------*/
+.pagination .nav-links,
+.#{$app-prefix}-pagination{
+    // margin: 30px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    @include rtl-text-align-right();
+    font-family: $font-family-base;
+    background: #ffffff;
+    ul.page-numbers{
+        margin: 0;
+        padding:0;
+        list-style: none;
+        li{
+            display: inline-block;
+        }
+    }
+    span,a{
+        line-height: 48px;
+        text-align: center;
+        display: inline-block;
+        vertical-align:middle;
+        @include rtl-margin-right(8px);
+        @include size(50px,50px);
+        border: 1px solid $border-color;
+        &:last-child{
+            margin: 0;
+        }
+        &.current{
+            color: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+    a{
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        &:hover{
+            text-decoration: none;
+            color: $theme-color;
+            border-color: $theme-color;
+        }
+        &.next, &.prev {
+            &:before{
+                content: "\e99e";
+                font-family:"monia" !important; 
+                font-size: 12px;
+                font-weight: 400;
+                display: block;
+                position: absolute;
+                top:0;
+                left: 0;
+                z-index: 1;
+                background: #fff;
+                @include size(50px,50px);
+            }
+        }
+        &.prev{
+            &:before{
+                content: "\e99d";
+            }
+        }
+    }
+}
+.navigation {
+    display: block;
+}
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+.#{$app-prefix}-footer{
+    .footer-builder-wrapper{
+        &:after, &:before{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+    .lighting{
+        background: #ffffff;
+    }
+
+    .dark{
+        background: $footer-bg;
+    }
+    padding:0;
+    position: relative;
+    color: $footer-color;
+    border-bottom: $footer-border;
+    font-size: $footer-font-size;
+    overflow:hidden;
+    a{
+        color: $footer-link-color;
+        &:hover,
+        &:focus,
+        &:active{
+            color: $footer-link-hover-color;
+        }
+    }
+    .footer-default{
+        padding: 50px 0;
+    }
+    .footer-main{
+       position: relative;
+       &:before{
+            content: '';
+            height: 1px;
+            display: block;
+            background: lighten($footer-bg, 8%);
+            position: absolute;
+            top:0;
+            left:$theme-margin / 2;
+            right:$theme-margin / 2;
+       } 
+    }
+    .footer-border{
+        > [class *= "container"]{
+            position: relative;
+            &:before{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: -5000px;
+                @include size(9000px,1px);
+                background: lighten($footer-bg, 8%);
+            }
+        }
+    }
+    //widget_apus_instagram
+    .widget_apus_instagram{
+        .widgettitle{
+            padding-bottom: 4px;
+        }
+        .instagram-widget{
+            .row{
+                margin: 0 -8px;
+                [class*="col-md-"]{
+                    padding:0 8px;
+                    margin-bottom: 16px;
+                    overflow: hidden;
+                }
+                a{
+                    &:before{
+                        top: -20%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+} 
+
+/*------------------------------------*\
+    Copyright
+\*------------------------------------*/
+.#{$app-prefix}-copyright{
+    color: $copyright-color;
+    font-size: $copyright-font-size;
+    font-weight: $copyright-font-weight;
+    @include box-size($copyright-bg, $copyright-padding-top, $copyright-padding-bottom);
+    a{
+        &:hover,
+        &:focus,
+        &:active{
+            color: $copyright-link-hover-color;
+        }
+        color: $copyright-link-color;
+    }
+    .menu{
+        margin:0;
+        padding:0;
+        li{
+            @include rtl-float-left();
+            display: inline-block;
+            @include rtl-margin-right(30px);
+            font-size: 13px;
+            line-height: inherit;
+            &:last-child{
+                margin:0;
+            }
+        }
+    }
+}
+/*------------------------------------*\
+    Top bar
+\*------------------------------------*/
+.apus-offcanvas {
+    .apus-offcanvas-body{
+        position: relative;
+    }
+    visibility:hidden;
+    @include opacity(0);
+    @include translateX(-100%);
+    @include transition(all 0.2s  ease-in-out 0s);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 99;
+    min-width:300px;
+    width: 70%;
+    background: #fff;
+    height: 100%;
+    overflow-y: scroll;
+}
+.wrapper-container.active{
+    .apus-offcanvas{
+        @include translateX(0);
+        @include opacity(1);
+        visibility:visible;
+        @include box-shadow(2px 0 5px 0 rgba(0,0,0,0.5));
+        z-index: 100;
+    }
+}
+//custum padding
+.none-padding{
+    [class*="kc_col-"]{
+        padding: 0px;
+    }
+    [class*="col-"]{
+        padding: 0px;
+    }
+}
+//dot slider
+.hesperiden.tp-bullets{
+    .tp-bullet{
+        @include size(12px, 12px);
+        background: transparent;
+        border: 2px solid #ffffff;
+        margin: 0 8px;
+        &.selected{
+            background: #ffffff;
+        }
+    }
+}
+button, input{
+    &:focus, &:visited, &:active{
+        outline: none !important;
+    }
+}
+input, button, select, textarea{
+    &:focus, &:visited, &:active{
+        outline: none !important;
+    }
+}

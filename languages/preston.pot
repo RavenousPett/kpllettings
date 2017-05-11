@@ -1,0 +1,2409 @@
+# Copyright (C) 2016 ApusTheme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Preston 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/preston\n"
+"POT-Creation-Date: 2016-11-22 03:13:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:35
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:37
+msgid "We are sorry, but we can not find the page you were looking for"
+msgstr ""
+
+#: 404.php:44
+msgid "back to homepage"
+msgstr ""
+
+#: archive-agency.php:35 archive-agent.php:35
+#: post-formats/single/_single.php:78 templates/archive-layout/default.php:123
+#: templates/archive-layout/half-map.php:110 templates/content-agency.php:111
+#: templates/content-agent.php:119 templates/single-layout/default.php:48
+#: templates/single-layout/layout1.php:53
+#: templates/single-layout/layout2.php:51
+msgid "Page"
+msgstr ""
+
+#: comments.php:26
+msgid "0 Comment"
+msgstr ""
+
+#: comments.php:26
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:26
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:46
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Name*"
+msgstr ""
+
+#: comments.php:58
+msgid "Email"
+msgstr ""
+
+#: comments.php:61
+msgid "Website"
+msgstr ""
+
+#: comments.php:65
+msgid "SUBMIT COMMENT"
+msgstr ""
+
+#: comments.php:66
+msgid "Your email address will not be published."
+msgstr ""
+
+#: content-search.php:28 content-search.php:33
+msgid "Edit"
+msgstr ""
+
+#: footer.php:33
+msgid ""
+"Copyright &copy; 2016 - Preston. All Rights Reserved. <br/> Powered by <a "
+"href=\"//apusthemes.com\">ApusThemes</a>"
+msgstr ""
+
+#: functions.php:82
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:83
+msgid "Anonymous user"
+msgstr ""
+
+#: functions.php:84
+msgid "Authenticated user"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:136
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:137
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:138
+msgctxt "Crimson font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:334
+msgid "Sidebar Default"
+msgstr ""
+
+#: functions.php:336
+msgid "Add widgets here to appear in your Sidebar."
+msgstr ""
+
+#: functions.php:343
+msgid "Contact Topbar"
+msgstr ""
+
+#: functions.php:345 functions.php:354 functions.php:364
+msgid "Add widgets here to appear in your Top Bar."
+msgstr ""
+
+#: functions.php:352
+msgid "Social Topbar"
+msgstr ""
+
+#: functions.php:362
+msgid "Property Sidebar"
+msgstr ""
+
+#: functions.php:371
+msgid "Property Filler Rent Sale"
+msgstr ""
+
+#: functions.php:373 functions.php:382
+msgid "Add widgets here to appear in your header site."
+msgstr ""
+
+#: functions.php:380
+msgid "Property Filler Rent Sale Vertical"
+msgstr ""
+
+#: functions.php:389
+msgid "Blog left sidebar"
+msgstr ""
+
+#: functions.php:391 functions.php:400 functions.php:409
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:398
+msgid "Blog right sidebar"
+msgstr ""
+
+#: functions.php:407
+msgid "Single Property Sidebar"
+msgstr ""
+
+#: functions.php:421
+msgid "Apus Themer For Themes"
+msgstr ""
+
+#: functions.php:428
+msgid "Cmb2"
+msgstr ""
+
+#: functions.php:434
+msgid "King Composer - Page Builder"
+msgstr ""
+
+#: functions.php:440
+msgid "Revolution Slider"
+msgstr ""
+
+#: functions.php:448
+msgid "Realia"
+msgstr ""
+
+#: functions.php:454
+msgid "WP REST API (WP API)"
+msgstr ""
+
+#: functions.php:461
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: functions.php:467
+msgid "Contact Form 7"
+msgstr ""
+
+#: headers/default.php:74
+msgid "SUBMIT PROPERTY"
+msgstr ""
+
+#: headers/mobile/offcanvas-menu.php:7
+msgid "MENU"
+msgstr ""
+
+#: inc/classes/megamenu.php:114 inc/classes/mobilemenu.php:106
+msgid "New"
+msgstr ""
+
+#: inc/classes/megamenu.php:118 inc/classes/mobilemenu.php:110
+msgid "Hot"
+msgstr ""
+
+#: inc/classes/megamenu.php:122 inc/classes/mobilemenu.php:114
+#: inc/template-tags.php:49 inc/vendors/kingcomposer/maps.php:14
+#: templates/properties/box-style1.php:57
+#: templates/properties/box-style1.php:59
+#: templates/properties/box-style2.php:57
+#: templates/properties/box-style2.php:59 templates/properties/box.php:57
+#: templates/properties/box.php:59 templates/properties/row.php:41
+#: templates/properties/row.php:43
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: inc/customizer.php:48 inc/customizer.php:64 inc/customizer.php:69
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: inc/customizer.php:118 inc/vendors/kingcomposer/maps.php:257
+#: inc/vendors/kingcomposer/maps.php:314 inc/vendors/kingcomposer/maps.php:385
+#: inc/vendors/redux-framework/redux-config.php:798
+#: inc/vendors/redux-framework/redux-config.php:901
+#: inc/vendors/redux-framework/redux-config.php:912
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:129 inc/vendors/cmb2/footer.php:13
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Yellow"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Pink"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Purple"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Blue"
+msgstr ""
+
+#: inc/functions-frontend.php:7
+msgid "Tags: "
+msgstr ""
+
+#: inc/functions-frontend.php:66 inc/functions-frontend.php:73
+msgid "The Blogs"
+msgstr ""
+
+#: inc/functions-frontend.php:89
+msgid "The Blog"
+msgstr ""
+
+#: inc/functions-frontend.php:113 inc/functions-frontend.php:213
+msgid "Search results for \""
+msgstr ""
+
+#: inc/functions-frontend.php:115 inc/functions-frontend.php:215
+msgid "Posts tagged \""
+msgstr ""
+
+#: inc/functions-frontend.php:119 inc/functions-frontend.php:219
+msgid "Articles posted by "
+msgstr ""
+
+#: inc/functions-frontend.php:121 inc/functions-frontend.php:221
+msgid "Error 404"
+msgstr ""
+
+#: inc/functions-frontend.php:131 inc/functions-frontend.php:232
+msgid "Home"
+msgstr ""
+
+#: inc/functions-frontend.php:238
+msgid "Property"
+msgstr ""
+
+#: inc/functions-frontend.php:387
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/functions-frontend.php:409
+msgid "Post navigation"
+msgstr ""
+
+#: inc/functions-frontend.php:413
+msgid "Published In"
+msgstr ""
+
+#: inc/functions-frontend.php:415 inc/functions-helper.php:502
+msgid "Previous Post"
+msgstr ""
+
+#: inc/functions-frontend.php:416 inc/functions-helper.php:476
+msgid "Next Post"
+msgstr ""
+
+#: inc/functions-frontend.php:431 single.php:41
+msgid "Previous"
+msgstr ""
+
+#: inc/functions-frontend.php:432 single.php:38
+msgid "Next"
+msgstr ""
+
+#: inc/functions-helper.php:453 templates/properties/sort.php:20
+msgid "Price"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:393
+#: inc/plugins/class-tgm-plugin-activation.php:917
+#: inc/plugins/class-tgm-plugin-activation.php:2623
+#: inc/plugins/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:394
+#: inc/plugins/class-tgm-plugin-activation.php:3249
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:395
+#: inc/plugins/class-tgm-plugin-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/plugins/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1024
+#: inc/plugins/class-tgm-plugin-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1211
+#: inc/plugins/class-tgm-plugin-activation.php:3038
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/plugins/class-tgm-plugin-activation.php:2072
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2363
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2366
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2382
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2385
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2388
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2405
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2411
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2417
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2420
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2423
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/plugins/class-tgm-plugin-activation.php:2432
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2478
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2482
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2486
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2490
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2572
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2580
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2588
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2600
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2637
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2638
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2639
+#: templates/single/overview.php:27
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2643
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2644
+#: templates/single/overview.php:49
+#: templates/widgets/filter-fields/status.php:5
+#: templates/widgets/filter-fields/status.php:13
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2693
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2698
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2704
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2807
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2813
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2816
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3248
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3588
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/plugins/class-tgm-plugin-activation.php:3591
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3593
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3597
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3599
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3599
+#: inc/plugins/class-tgm-plugin-activation.php:3607
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3599
+#: inc/plugins/class-tgm-plugin-activation.php:3607
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3600
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3602
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3605
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3607
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3608
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3610
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/samples/sample-data.php:11
+msgid "Home 1"
+msgstr ""
+
+#: inc/samples/sample-data.php:17
+msgid "Home 2"
+msgstr ""
+
+#: inc/samples/sample-data.php:23
+msgid "Home 3"
+msgstr ""
+
+#: inc/samples/sample-data.php:29
+msgid "Home 4"
+msgstr ""
+
+#: inc/samples/sample-data.php:35
+msgid "Home 5"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:222
+msgid "/ By: "
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:258 templates/content-agency.php:61
+#: templates/content-agent.php:76 templates/single/description.php:3
+msgid "Continue reading %s"
+msgstr ""
+
+#: inc/vendors/cmb2/footer.php:8
+msgid "Footer Style"
+msgstr ""
+
+#: inc/vendors/cmb2/footer.php:12
+msgid "Lighting"
+msgstr ""
+
+#: inc/vendors/cmb2/footer.php:20 inc/vendors/cmb2/page.php:97
+msgid "Display Settings"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:13 inc/vendors/cmb2/page.php:14
+msgid "Global Setting"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:19
+msgid "Select Layout"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:23
+msgid "Main Content Only"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:24
+#: inc/vendors/redux-framework/redux-config.php:453
+#: inc/vendors/redux-framework/redux-config.php:454
+#: inc/vendors/redux-framework/redux-config.php:641
+#: inc/vendors/redux-framework/redux-config.php:642
+#: inc/vendors/redux-framework/redux-config.php:831
+#: inc/vendors/redux-framework/redux-config.php:832
+msgid "Left Sidebar - Main Content"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:25
+#: inc/vendors/redux-framework/redux-config.php:458
+#: inc/vendors/redux-framework/redux-config.php:459
+#: inc/vendors/redux-framework/redux-config.php:646
+#: inc/vendors/redux-framework/redux-config.php:647
+#: inc/vendors/redux-framework/redux-config.php:836
+#: inc/vendors/redux-framework/redux-config.php:837
+msgid "Main Content - Right Sidebar"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:26
+#: inc/vendors/redux-framework/redux-config.php:463
+#: inc/vendors/redux-framework/redux-config.php:464
+#: inc/vendors/redux-framework/redux-config.php:651
+#: inc/vendors/redux-framework/redux-config.php:652
+#: inc/vendors/redux-framework/redux-config.php:841
+#: inc/vendors/redux-framework/redux-config.php:842
+msgid "Left Sidebar - Main Content - Right Sidebar"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:32
+#: inc/vendors/redux-framework/redux-config.php:262
+#: inc/vendors/redux-framework/redux-config.php:358
+#: inc/vendors/redux-framework/redux-config.php:473
+#: inc/vendors/redux-framework/redux-config.php:571
+#: inc/vendors/redux-framework/redux-config.php:661
+#: inc/vendors/redux-framework/redux-config.php:735
+#: inc/vendors/redux-framework/redux-config.php:851
+msgid "Is Full Width?"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:35 inc/vendors/cmb2/page.php:56
+#: inc/vendors/redux-framework/redux-config.php:127
+#: inc/vendors/redux-framework/redux-config.php:144
+#: templates/single/overview.php:35
+msgid "No"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:36 inc/vendors/cmb2/page.php:57
+#: inc/vendors/redux-framework/redux-config.php:126
+#: inc/vendors/redux-framework/redux-config.php:143
+#: templates/single/overview.php:33
+msgid "Yes"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:42
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:48
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:54
+msgid "Show Breadcrumb?"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:64
+msgid "Breadcrumb Background Color"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:69
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:74
+#: inc/vendors/redux-framework/redux-config.php:105
+msgid "Header Layout Type"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:75
+#: inc/vendors/redux-framework/redux-config.php:106
+msgid "Choose a header for your website."
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:82
+#: inc/vendors/redux-framework/redux-config.php:177
+msgid "Footer Layout Type"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:83
+#: inc/vendors/redux-framework/redux-config.php:178
+msgid "Choose a footer for your website."
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:90
+msgid "Extra Class"
+msgstr ""
+
+#: inc/vendors/cmb2/page.php:91
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:9
+#: inc/vendors/redux-framework/redux-config.php:134
+#: templates/archive-layout/default.php:83
+#: templates/archive-layout/half-map.php:70
+msgid "All"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:10
+msgid "Rent"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:11
+msgid "Sale"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:15
+msgid "Latest"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:16
+msgid "Sticky"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:17 templates/properties/box-style1.php:57
+#: templates/properties/box-style1.php:61
+#: templates/properties/box-style2.php:57
+#: templates/properties/box-style2.php:61 templates/properties/box.php:57
+#: templates/properties/box.php:61 templates/properties/row.php:41
+#: templates/properties/row.php:45
+msgid "Reduced"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:21
+msgid "Display properties in frontend"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:28 inc/vendors/kingcomposer/maps.php:242
+#: inc/vendors/kingcomposer/maps.php:275 templates/properties/sort.php:21
+msgid "Title"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:33 templates/single/overview.php:42
+msgid "Contract"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:40
+msgid "Property Type"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:47
+msgid "Number property"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:59 inc/vendors/kingcomposer/maps.php:120
+#: inc/vendors/kingcomposer/maps.php:374
+msgid "Layout Type"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:63 inc/vendors/kingcomposer/maps.php:124
+#: inc/vendors/kingcomposer/maps.php:229
+#: inc/vendors/redux-framework/redux-config.php:305
+msgid "Grid"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:64 inc/vendors/kingcomposer/maps.php:231
+#: inc/vendors/redux-framework/redux-config.php:306
+msgid "List"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:65 inc/vendors/kingcomposer/maps.php:125
+#: inc/vendors/kingcomposer/maps.php:230
+msgid "Carousel"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:66
+msgid "Special 1"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:67
+msgid "Special 2"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:72 inc/vendors/kingcomposer/maps.php:130
+#: inc/vendors/redux-framework/redux-config.php:526
+#: inc/vendors/redux-framework/redux-config.php:771
+msgid "Columns"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:100
+msgid "Display agents in frontend"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:108
+msgid "Number agent"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:142 inc/vendors/kingcomposer/maps.php:310
+#: inc/vendors/kingcomposer/maps.php:381
+msgid "Item Style"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:146 inc/vendors/kingcomposer/maps.php:216
+msgid "Style 1"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:147 inc/vendors/kingcomposer/maps.php:217
+msgid "Style 2"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:164
+msgid "Display Slider Properties in frontend"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:171
+msgid "Autocomplete"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:180
+msgid "Show arrows"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:185
+msgid "Show dots"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:190
+msgid "Autoplay"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:195
+msgid "Autoplay timeout"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:218
+msgid "Style 3"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:236
+msgid "Display Heading Title in frontend"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:248 inc/vendors/kingcomposer/maps.php:281
+#: inc/vendors/kingcomposer/maps.php:303 templates/single/description.php:2
+#: templates/single-layout/content-layout/tabs.php:10
+msgid "Description"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:253
+#: inc/vendors/redux-framework/redux-config.php:940
+msgid "Style"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:258
+msgid "White"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:259
+msgid "Text Left"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:266
+msgid "Apus Contact Info"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:267
+msgid "Apus Contact Info Settings"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:271
+msgid "Display Contact Info."
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:286
+msgid "Items"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:291
+msgid "Icon Font"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:296
+msgid "If you upload an image, icon will not show."
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:298
+msgid "Icon Image"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:315
+msgid "No Border"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:322
+msgid "Apus Testimonials"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:323
+msgid "Apus Testimonials Settings"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:327
+msgid "List of testimonials with more layouts."
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:331
+msgid "Testimonial Items"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:336
+msgid "Photo"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:342 templates/widgets/enquire.php:31
+msgid "Name"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:348
+msgid "Job"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:354
+#: inc/vendors/redux-framework/redux-config.php:946
+msgid "Content"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:362
+msgid "Grid Column"
+msgstr ""
+
+#: inc/vendors/kingcomposer/maps.php:386
+msgid "Style Border"
+msgstr ""
+
+#: inc/vendors/realia/functions.php:5 templates/single/floor.php:4
+msgid "Floor Plans"
+msgstr ""
+
+#: inc/vendors/realia/functions.php:11
+msgid "Video link"
+msgstr ""
+
+#: inc/vendors/realia/functions.php:17
+msgid "Image for slider"
+msgstr ""
+
+#: inc/vendors/realia/functions.php:19
+msgid "Use large images which has at least 1920px width and 760px height."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:49
+msgid "1 Column"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:50
+msgid "2 Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:51
+msgid "3 Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:52
+msgid "4 Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:53
+msgid "5 Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:54
+msgid "6 Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:62
+msgid "Favicon Upload"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:64
+msgid "Upload a 16px x 16px .png or .gif image that will be your favicon."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:70
+msgid "Preload Website"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:76
+msgid "Image Lazy Loading"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:82
+msgid "General"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:88
+#: inc/vendors/redux-framework/redux-config.php:1156
+msgid "Header"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:93
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:94
+#: inc/vendors/redux-framework/redux-config.php:100
+msgid "Upload a .png or .gif image that will be your logo."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:99
+msgid "Mobile Logo Upload"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:112
+msgid "Keep Header When Scroll Mouse"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:119
+msgid "Search Form"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:124
+msgid "Show Search Form"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:132
+msgid "Search Content Type"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:134
+msgid "Post"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:134
+msgid "Product"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:140
+msgid "Show Categories"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:149
+msgid "Autocomplete search?"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:156
+msgid "Show Search Result Image"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:163
+msgid "Show Search Result Price"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:172
+#: inc/vendors/redux-framework/redux-config.php:1214
+msgid "Footer"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:184
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:191
+msgid "Back To Top Button"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:192
+msgid "Toggle whether or not to enable a back to top button on your pages."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:201
+#: inc/vendors/redux-framework/redux-config.php:322
+msgid "Blog"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:206
+#: inc/vendors/redux-framework/redux-config.php:417
+#: inc/vendors/redux-framework/redux-config.php:605
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:210
+#: inc/vendors/redux-framework/redux-config.php:421
+#: inc/vendors/redux-framework/redux-config.php:609
+msgid "Breadcrumbs Background Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:211
+#: inc/vendors/redux-framework/redux-config.php:422
+#: inc/vendors/redux-framework/redux-config.php:610
+msgid "The breadcrumbs background color of the site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:219
+#: inc/vendors/redux-framework/redux-config.php:430
+#: inc/vendors/redux-framework/redux-config.php:618
+msgid "Breadcrumbs Background"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:220
+#: inc/vendors/redux-framework/redux-config.php:431
+#: inc/vendors/redux-framework/redux-config.php:619
+msgid "Upload a .jpg or .png image that will be your breadcrumbs."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:227
+msgid "Blog & Post Archives"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:233
+#: inc/vendors/redux-framework/redux-config.php:329
+#: inc/vendors/redux-framework/redux-config.php:444
+#: inc/vendors/redux-framework/redux-config.php:542
+#: inc/vendors/redux-framework/redux-config.php:632
+#: inc/vendors/redux-framework/redux-config.php:706
+#: inc/vendors/redux-framework/redux-config.php:821
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:234
+#: inc/vendors/redux-framework/redux-config.php:330
+msgid "Select the variation you want to apply on your store."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:237
+#: inc/vendors/redux-framework/redux-config.php:238
+#: inc/vendors/redux-framework/redux-config.php:333
+#: inc/vendors/redux-framework/redux-config.php:334
+#: inc/vendors/redux-framework/redux-config.php:546
+#: inc/vendors/redux-framework/redux-config.php:547
+#: inc/vendors/redux-framework/redux-config.php:710
+#: inc/vendors/redux-framework/redux-config.php:711
+msgid "Main Only"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:242
+#: inc/vendors/redux-framework/redux-config.php:243
+#: inc/vendors/redux-framework/redux-config.php:338
+#: inc/vendors/redux-framework/redux-config.php:339
+#: inc/vendors/redux-framework/redux-config.php:551
+#: inc/vendors/redux-framework/redux-config.php:552
+#: inc/vendors/redux-framework/redux-config.php:715
+#: inc/vendors/redux-framework/redux-config.php:716
+msgid "Left - Main Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:247
+#: inc/vendors/redux-framework/redux-config.php:248
+#: inc/vendors/redux-framework/redux-config.php:343
+#: inc/vendors/redux-framework/redux-config.php:344
+#: inc/vendors/redux-framework/redux-config.php:556
+#: inc/vendors/redux-framework/redux-config.php:557
+#: inc/vendors/redux-framework/redux-config.php:720
+#: inc/vendors/redux-framework/redux-config.php:721
+msgid "Main - Right Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:252
+#: inc/vendors/redux-framework/redux-config.php:253
+#: inc/vendors/redux-framework/redux-config.php:348
+#: inc/vendors/redux-framework/redux-config.php:349
+#: inc/vendors/redux-framework/redux-config.php:561
+#: inc/vendors/redux-framework/redux-config.php:562
+#: inc/vendors/redux-framework/redux-config.php:725
+#: inc/vendors/redux-framework/redux-config.php:726
+msgid "Left - Main - Right Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:268
+#: inc/vendors/redux-framework/redux-config.php:479
+#: inc/vendors/redux-framework/redux-config.php:667
+#: inc/vendors/redux-framework/redux-config.php:858
+msgid "Archive Left Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:269
+#: inc/vendors/redux-framework/redux-config.php:365
+#: inc/vendors/redux-framework/redux-config.php:480
+#: inc/vendors/redux-framework/redux-config.php:578
+#: inc/vendors/redux-framework/redux-config.php:668
+#: inc/vendors/redux-framework/redux-config.php:742
+#: inc/vendors/redux-framework/redux-config.php:859
+msgid "Choose a sidebar for left sidebar."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:275
+#: inc/vendors/redux-framework/redux-config.php:486
+#: inc/vendors/redux-framework/redux-config.php:674
+#: inc/vendors/redux-framework/redux-config.php:866
+msgid "Archive Right Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:276
+#: inc/vendors/redux-framework/redux-config.php:372
+#: inc/vendors/redux-framework/redux-config.php:487
+#: inc/vendors/redux-framework/redux-config.php:585
+#: inc/vendors/redux-framework/redux-config.php:675
+#: inc/vendors/redux-framework/redux-config.php:749
+#: inc/vendors/redux-framework/redux-config.php:867
+msgid "Choose a sidebar for right sidebar."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:283
+msgid "Display Mode"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:285
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:286
+msgid "Mansory Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:287
+msgid "List Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:288
+msgid "Chess Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:289
+msgid "Timeline Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:296
+msgid "Blog Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:303
+msgid "Blog Item Style"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:313
+msgid "Thumbnail Size"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:314
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:364
+msgid "Single Blog Left Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:371
+msgid "Single Blog Right Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:378
+#: inc/vendors/redux-framework/redux-config.php:591
+msgid "Show Social Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:384
+msgid "Show Releated Posts"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:390
+msgid "Number of related posts to show"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:401
+msgid "Releated Blogs Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:412
+msgid "Agency"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:438
+msgid "Agency Archives"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:445
+msgid "Select the layout you want to apply on your archive agency page."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:448
+#: inc/vendors/redux-framework/redux-config.php:449
+#: inc/vendors/redux-framework/redux-config.php:636
+#: inc/vendors/redux-framework/redux-config.php:637
+#: inc/vendors/redux-framework/redux-config.php:826
+#: inc/vendors/redux-framework/redux-config.php:827
+msgid "Main Content"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:493
+#: inc/vendors/redux-framework/redux-config.php:681
+#: inc/vendors/redux-framework/redux-config.php:876
+msgid "Number of Products Per Page"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:503
+msgid "Agency Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:510
+msgid "Show Agency Agents"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:515
+msgid "Number agents"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:536
+msgid "Single Agency"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:543
+#: inc/vendors/redux-framework/redux-config.php:707
+msgid "Select the layout you want to apply on your Single Product Page."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:577
+#: inc/vendors/redux-framework/redux-config.php:741
+msgid "Single Product Left Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:584
+#: inc/vendors/redux-framework/redux-config.php:748
+msgid "Single Product Right Sidebar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:600
+msgid "Agent"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:626
+msgid "Agent Archives"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:633
+msgid "Select the layout you want to apply on your archive agent page."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:691
+msgid "Agent Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:700
+msgid "Single Agent"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:755
+msgid "Show Agent Properties"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:760
+msgid "Number properties"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:779
+msgid "Show Agent Contact Form"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:790
+msgid "Property Archives Page"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:795
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:796
+msgid "Choose a layout for archvie, taxonomy page."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:799
+msgid "Half Map"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:806
+msgid "Show Archive Top Content"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:813
+msgid "Archive Top Block Content"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:822
+msgid "Select the layout you want to apply on your archive property page."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:886
+msgid "Property Columns"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:894
+msgid "Property Detail page"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:899
+msgid "Property Layout Type"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:902
+msgid "Layout 1"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:903
+msgid "Layout 2"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:910
+msgid "Property Content Layout"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:913
+msgid "Tabs"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:920
+msgid "Show Property Social"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:926
+msgid "Show Sub Properties"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:932
+msgid "Show Properties Similar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:949
+msgid "Main Theme Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:950
+msgid "The main color of the site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:959
+msgid "Site Background"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:965
+msgid "Container Background Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:973
+msgid "Forms inputs Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:982
+msgid "Typography"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:989
+msgid "Body Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:993
+msgid "Font Face"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:994
+msgid "Pick the Main Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1018
+msgid "Heading"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1021
+msgid "H1 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1022
+msgid "Pick the H1 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1037
+msgid "H2 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1038
+msgid "Pick the H2 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1053
+msgid "H3 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1054
+msgid "Pick the H3 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1069
+msgid "H4 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1070
+msgid "Pick the H4 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1085
+msgid "H5 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1086
+msgid "Pick the H5 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1101
+msgid "H6 Font"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1102
+msgid "Pick the H6 Font for your site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1120
+msgid "Top Bar"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1125
+#: inc/vendors/redux-framework/redux-config.php:1161
+#: inc/vendors/redux-framework/redux-config.php:1219
+#: inc/vendors/redux-framework/redux-config.php:1264
+msgid "Background"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1129
+#: inc/vendors/redux-framework/redux-config.php:1165
+#: inc/vendors/redux-framework/redux-config.php:1231
+#: inc/vendors/redux-framework/redux-config.php:1268
+msgid "Text Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1137
+#: inc/vendors/redux-framework/redux-config.php:1173
+#: inc/vendors/redux-framework/redux-config.php:1195
+#: inc/vendors/redux-framework/redux-config.php:1239
+#: inc/vendors/redux-framework/redux-config.php:1276
+msgid "Link Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1145
+msgid "Link Color When Hover"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1181
+#: inc/vendors/redux-framework/redux-config.php:1203
+msgid "Link Color Active"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1192
+msgid "Main Menu"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1223
+msgid "Heading Color"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1247
+#: inc/vendors/redux-framework/redux-config.php:1284
+msgid "Link Color Hover"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1259
+msgid "Copyright"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1297
+msgid "Social Media"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1302
+msgid "Enable Facebook Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1308
+msgid "Enable twitter Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1314
+msgid "Enable linkedin Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1320
+msgid "Enable tumblr Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1326
+msgid "Enable google plus Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1332
+msgid "Enable pinterest Share"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1340
+msgid "Custom CSS/JS"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1343
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1344
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1351
+msgid "Header JavaScript Code"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1352
+msgid ""
+"Paste your custom JS code here. The code will be added to the header of your "
+"site."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1359
+msgid "Footer JavaScript Code"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1360
+msgid ""
+"Here is the place to paste your Google Analytics code or any other JS code "
+"you might want to add to be loaded in the footer of your website."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1368
+msgid "Import / Export"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1369
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1375
+msgid "Import Export"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1376
+msgid "Save and restore your Redux options"
+msgstr ""
+
+#: inc/vendors/redux-framework/redux-config.php:1408
+#: inc/vendors/redux-framework/redux-config.php:1409
+msgid "Theme Options"
+msgstr ""
+
+#: kingcomposer/kc_post_type_list.php:13
+msgid "Read more"
+msgstr ""
+
+#: kingcomposer/kc_post_type_list.php:101
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: kingcomposer/kc_post_type_list.php:115
+msgid "View all posts by %s"
+msgstr ""
+
+#: kingcomposer/kc_post_type_list.php:122
+#: kingcomposer/kc_post_type_list.php:127
+msgid ", "
+msgstr ""
+
+#: kingcomposer/kc_post_type_list.php:149
+msgid "No posts found"
+msgstr ""
+
+#: list_comments.php:17
+msgid "%1$s"
+msgstr ""
+
+#: list_comments.php:18
+msgid " - Edit"
+msgstr ""
+
+#: list_comments.php:22
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: list_comments.php:27
+msgid " Reply"
+msgstr ""
+
+#: page-templates/parts/posts-releated.php:32
+msgid "Releated Posts"
+msgstr ""
+
+#: page-templates/parts/productsearchform-popup.php:18
+#: page-templates/parts/productsearchform.php:18
+msgid "All categories"
+msgstr ""
+
+#: page-templates/parts/productsearchform-popup.php:32
+#: page-templates/parts/productsearchform.php:32 searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:8
+msgid "Share this product"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:11
+#: page-templates/parts/sharebox.php:11
+msgid "Share on facebook"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:18
+#: page-templates/parts/sharebox.php:18
+msgid "Share on Twitter"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:25
+#: page-templates/parts/sharebox.php:25
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:32
+#: page-templates/parts/sharebox.php:32
+msgid "Share on Tumblr"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:40
+#: page-templates/parts/sharebox.php:40
+msgid "Share on Google plus"
+msgstr ""
+
+#: page-templates/parts/sharebox-product.php:48
+#: page-templates/parts/sharebox.php:48
+msgid "Share on Pinterest"
+msgstr ""
+
+#: page-templates/parts/sharebox.php:7
+msgid "Share this Post:  "
+msgstr ""
+
+#: post-formats/content-none.php:13
+msgid "Oops!"
+msgstr ""
+
+#: post-formats/content-none.php:13
+msgid "Sorry, but your search returned no results!"
+msgstr ""
+
+#: post-formats/content-none.php:15
+msgid "Try again please, use the search form below."
+msgstr ""
+
+#: post-formats/loop/grid/_item.php:18 post-formats/single/_single.php:43
+msgctxt "Used before post author name."
+msgid "<i class=\"fa fa-user\"></i>"
+msgstr ""
+
+#: post-formats/loop/grid/_item.php:48
+msgid "Read More"
+msgstr ""
+
+#: post-formats/loop/list/_item.php:32
+msgctxt "Used before post author name."
+msgid "By "
+msgstr ""
+
+#: post-formats/loop/list/_item.php:46 post-formats/loop/list-v1/_item.php:41
+msgid "VIEW MORE"
+msgstr ""
+
+#: post-formats/single/_single.php:74 templates/content-agency.php:107
+#: templates/content-agent.php:115 templates/single-layout/default.php:44
+#: templates/single-layout/layout1.php:49
+#: templates/single-layout/layout2.php:47
+msgid "Pages:"
+msgstr ""
+
+#: single.php:39
+msgid "Next post:"
+msgstr ""
+
+#: single.php:42
+msgid "Previous post:"
+msgstr ""
+
+#: templates/agencies/row.php:29
+msgid "agents"
+msgstr ""
+
+#: templates/agencies/row.php:46
+msgid "Contact Information"
+msgstr ""
+
+#: templates/agents/box.php:27 templates/agents/row-style2.php:27
+#: templates/agents/row.php:27
+msgid "properties"
+msgstr ""
+
+#: templates/agents/contact-form.php:26
+msgid "Your message has been successfully sent."
+msgstr ""
+
+#: templates/agents/contact-form.php:28
+msgid "An error occurred when sending an email."
+msgstr ""
+
+#: templates/agents/contact-form.php:31
+msgid "Form has been not filled correctly."
+msgstr ""
+
+#: templates/agents/contact-form.php:37
+msgid "Contact Form"
+msgstr ""
+
+#: templates/agents/contact-form.php:42
+msgid "Subject"
+msgstr ""
+
+#: templates/agents/contact-form.php:46 templates/widgets/enquire.php:35
+msgid "E-mail"
+msgstr ""
+
+#: templates/agents/contact-form.php:50 templates/widgets/enquire.php:43
+msgid "Message"
+msgstr ""
+
+#: templates/agents/contact-form.php:57
+msgid "Send message"
+msgstr ""
+
+#: templates/agents/row-style2.php:43
+msgid "CONTACT NOW"
+msgstr ""
+
+#: templates/agents/row.php:43
+msgid "View Profile"
+msgstr ""
+
+#: templates/archive-layout/default.php:29
+#: templates/archive-layout/half-map.php:42
+msgid "View"
+msgstr ""
+
+#: templates/archive-layout/default.php:84
+#: templates/archive-layout/half-map.php:71
+#: templates/widgets/filter-rent-sale.php:30
+msgid "For Rent"
+msgstr ""
+
+#: templates/archive-layout/default.php:85
+#: templates/archive-layout/half-map.php:72
+#: templates/widgets/filter-rent-sale.php:31
+msgid "For Sale"
+msgstr ""
+
+#: templates/archive-layout/default.php:121
+#: templates/archive-layout/half-map.php:108
+msgid "Previous page"
+msgstr ""
+
+#: templates/archive-layout/default.php:122
+#: templates/archive-layout/half-map.php:109
+msgid "Next page"
+msgstr ""
+
+#: templates/content-agent.php:93
+msgid "Agent Properties"
+msgstr ""
+
+#: templates/content-agent.php:94
+msgid "Here are some of the properties listed by our related agents."
+msgstr ""
+
+#: templates/misc/google-map-infowindow.php:31
+#: templates/properties/box-style1.php:97
+#: templates/properties/box-style2.php:96 templates/properties/box.php:76
+#: templates/properties/row.php:60
+msgid "Area"
+msgstr ""
+
+#: templates/misc/google-map-infowindow.php:39
+#: templates/properties/box-style1.php:105
+#: templates/properties/box-style1.php:107
+#: templates/properties/box-style2.php:104 templates/properties/box.php:84
+#: templates/properties/row.php:68 templates/single/overview.php:89
+msgid "Beds"
+msgstr ""
+
+#: templates/misc/google-map-infowindow.php:47
+#: templates/properties/box-style1.php:113
+#: templates/properties/box-style1.php:115
+#: templates/properties/box-style2.php:112 templates/properties/box.php:92
+#: templates/properties/row.php:76 templates/single/overview.php:94
+msgid "Baths"
+msgstr ""
+
+#: templates/misc/login.php:9
+msgid "Username"
+msgstr ""
+
+#: templates/misc/login.php:14
+msgid "Password"
+msgstr ""
+
+#: templates/misc/login.php:18
+msgid "Log in"
+msgstr ""
+
+#: templates/properties/box-style1.php:65
+#: templates/properties/box-style2.php:65 templates/properties/box.php:65
+#: templates/properties/row.php:49 templates/single/gallery.php:9
+msgid "TOP"
+msgstr ""
+
+#: templates/properties/box-style1.php:121
+#: templates/properties/box-style1.php:123
+#: templates/properties/box-style2.php:120 templates/properties/box.php:100
+#: templates/properties/row.php:84 templates/single/overview.php:99
+#: templates/widgets/filter-fields/garages.php:6
+msgid "Garages"
+msgstr ""
+
+#: templates/properties/sort.php:19
+msgid "Sort by"
+msgstr ""
+
+#: templates/properties/sort.php:22
+msgid "Published"
+msgstr ""
+
+#: templates/properties/sort.php:28
+msgid "Order"
+msgstr ""
+
+#: templates/properties/sort.php:29
+msgid "ASC"
+msgstr ""
+
+#: templates/properties/sort.php:30
+msgid "DESC"
+msgstr ""
+
+#: templates/single/agent-properties.php:11
+msgid "More agent properties"
+msgstr ""
+
+#: templates/single/amenities.php:9
+#: templates/single-layout/content-layout/tabs.php:20
+msgid "Amenities"
+msgstr ""
+
+#: templates/single/facilities.php:5
+#: templates/single-layout/content-layout/tabs.php:35
+msgid "Facilities"
+msgstr ""
+
+#: templates/single/gallery-list.php:5
+msgid "Gallery"
+msgstr ""
+
+#: templates/single/map.php:10
+msgid "Map View"
+msgstr ""
+
+#: templates/single/map.php:13
+msgid "Street View"
+msgstr ""
+
+#: templates/single/map.php:29
+msgid "Transportation"
+msgstr ""
+
+#: templates/single/map.php:33
+msgid "Supermarket"
+msgstr ""
+
+#: templates/single/map.php:37
+msgid "Schools"
+msgstr ""
+
+#: templates/single/map.php:41
+msgid "Library"
+msgstr ""
+
+#: templates/single/map.php:45
+msgid "Pharmacy"
+msgstr ""
+
+#: templates/single/map.php:49
+msgid "Hospital"
+msgstr ""
+
+#: templates/single/overview.php:2
+#: templates/single-layout/content-layout/tabs.php:15
+msgid "Detail"
+msgstr ""
+
+#: templates/single/overview.php:7
+msgid "Reference"
+msgstr ""
+
+#: templates/single/overview.php:12
+msgid "Contact name"
+msgstr ""
+
+#: templates/single/overview.php:17
+msgid "Contact phone"
+msgstr ""
+
+#: templates/single/overview.php:22
+msgid "Year built"
+msgstr ""
+
+#: templates/single/overview.php:31
+msgid "Sold"
+msgstr ""
+
+#: templates/single/overview.php:54
+#: templates/widgets/filter-fields/location.php:6
+#: templates/widgets/filter-fields/location.php:12
+#: templates/widgets/filter-fields/location.php:63
+#: templates/widgets/filter-fields/location.php:69
+msgid "Location"
+msgstr ""
+
+#: templates/single/overview.php:60
+msgid "Home area"
+msgstr ""
+
+#: templates/single/overview.php:66
+msgid "Lot dimensions"
+msgstr ""
+
+#: templates/single/overview.php:73
+msgid "Lot area"
+msgstr ""
+
+#: templates/single/overview.php:79
+msgid "Material"
+msgstr ""
+
+#: templates/single/overview.php:84 templates/widgets/filter-fields/rooms.php:6
+msgid "Rooms"
+msgstr ""
+
+#: templates/single/similar.php:12
+msgid "Similar properties"
+msgstr ""
+
+#: templates/single/subproperties.php:14
+msgid "Subproperties"
+msgstr ""
+
+#: templates/single/valuation.php:5
+#: templates/single-layout/content-layout/tabs.php:30
+msgid "Valuation"
+msgstr ""
+
+#: templates/single/video.php:4
+#: templates/single-layout/content-layout/tabs.php:25
+msgid "Video"
+msgstr ""
+
+#: templates/single-layout/layout1.php:38
+#: templates/single-layout/layout2.php:36
+msgid "Position"
+msgstr ""
+
+#: templates/submission/remove-form.php:3
+msgid "You have to specify property!"
+msgstr ""
+
+#: templates/submission/remove-form.php:6
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: templates/submission/remove-form.php:15
+msgid "Delete"
+msgstr ""
+
+#: templates/widgets/enquire.php:39
+msgid "Phone"
+msgstr ""
+
+#: templates/widgets/enquire.php:53
+msgid "Send Message"
+msgstr ""
+
+#: templates/widgets/filter-fields/garages.php:14
+msgid "Garages: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/garages.php:16
+#: templates/widgets/filter-fields/rooms.php:16
+msgid "Any"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:14
+#: templates/widgets/filter-fields/location.php:71
+msgid "All locations"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:92
+#: templates/widgets/filter-fields/location.php:103
+msgid "Sublocation"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:105
+msgid "All sublocations"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:115
+#: templates/widgets/filter-fields/location.php:126
+msgid "Subsublocation"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:128
+msgid "All subsublocations"
+msgstr ""
+
+#: templates/widgets/filter-fields/price.php:5
+#: templates/widgets/filter-fields/price.php:9
+msgid "Price from"
+msgstr ""
+
+#: templates/widgets/filter-fields/price.php:16
+#: templates/widgets/filter-fields/price.php:20
+msgid "Price to"
+msgstr ""
+
+#: templates/widgets/filter-fields/property-type.php:5
+#: templates/widgets/filter-fields/property-type.php:16
+msgid "Property type"
+msgstr ""
+
+#: templates/widgets/filter-fields/property-type.php:18
+msgid "All property types"
+msgstr ""
+
+#: templates/widgets/filter-fields/rooms.php:14
+msgid "Rooms: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/status.php:15
+msgid "All statuses"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Preston"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://apusthemes.com/preston"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Preston Real Estate is clean theme, it's used Apus Framework."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ApusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://apusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "404 Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page Blog"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page Sidebar"
+msgstr ""

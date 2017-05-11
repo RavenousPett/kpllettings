@@ -1,0 +1,113 @@
+// Contact Page
+//----------------------------------
+
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+
+// Page Not Found
+//----------------------------------
+.page-template-404{
+   .apus-breadscrumb{
+      margin: 0;
+   }
+}
+.page-404{
+   background: #f7f7f7;
+   padding: 35px 0 105px;
+   .img4{
+   		
+   }
+   .not-found{
+   	padding: 110px 0;
+   	max-width: 960px;
+   	margin: 0 auto;
+   }
+   .page-title{
+	    font-size: 81px;
+	    letter-spacing: 2.5px;
+	    font-weight: 700;
+	    margin:15px 0 0;
+	    line-height: 86px;
+	    text-transform: uppercase;
+   }
+   .sub-title{
+   	color: $text-color;
+	    font-size: 16px;
+	    margin: 0 0 20px;
+   }
+   .page-content{
+	   	.form-inline{
+	   		position: relative;
+	   		max-width: 450px;
+	   		margin: 0 auto;
+	   	}
+   		.mail-style{
+   			input{
+   				width: 450px;
+   				border: none;
+   				font-family: $font-family-serif;
+   			}
+   		}
+   		button{
+   			background: transparent;
+   			padding: 0;
+   			border: none;
+            top: 0;
+			position: absolute;
+			right: 0;
+			color: #111111;
+			line-height: 50px;
+			@include  rtl-padding-right(15px);
+   		}
+   		a{
+   			&.btn{
+   				background: transparent;
+   				border: none;
+   				font-size: 16px;
+   				font-weight: 700;
+   				text-transform: uppercase;
+   				color: #111111;
+   				margin-top: 20px;
+   				&:before{
+   					content:"\e9ab";
+   					font-family: "monia";
+   					font-size: 18px;
+   					@include rtl-padding-right(15px);
+   				}
+   			}
+   		}
+   }
+}
+.blog-masonry{
+	.post-container{
+		margin-bottom: $theme-margin;
+		background-color: #fafafa;
+	}
+	.information-post {
+		padding: 15px;
+	}
+}
+
+.blog-list-item{
+	border-bottom:1px solid $border-color;
+}
