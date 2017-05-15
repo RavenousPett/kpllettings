@@ -1,0 +1,80 @@
+# Copyright (C) 2016 Apus Realia Favorites
+# This file is distributed under the same license as the Apus Realia Favorites package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apus Realia Favorites 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apus-realia-"
+"favorites\n"
+"POT-Creation-Date: 2016-11-10 04:53:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/class-favorites.php:61 inc/class-favorites.php:110
+#: templates/favorites.php:16
+msgid "You need to log in at first."
+msgstr ""
+
+#: inc/class-favorites.php:81
+msgid "No favorite properties found."
+msgstr ""
+
+#: inc/class-favorites.php:87 inc/class-favorites.php:155
+msgid "Property ID is missing."
+msgstr ""
+
+#: inc/class-favorites.php:126
+msgid "This is not property ID."
+msgstr ""
+
+#: inc/class-favorites.php:148
+msgid "Property is already in list"
+msgstr ""
+
+#: templates/favorites.php:7
+msgid "Previous"
+msgstr ""
+
+#: templates/favorites.php:8
+msgid "Next"
+msgstr ""
+
+#: templates/favorites.php:14
+msgid "You don't have any favorite properties, yet. Start by adding some."
+msgstr ""
+
+#: templates/misc/favorites-button.php:3 templates/misc/favorites-button.php:7
+msgid "Add to favorites"
+msgstr ""
+
+#: templates/misc/favorites-button.php:3 templates/misc/favorites-button.php:7
+msgid "I Love It"
+msgstr ""
+
+#: templates/misc/favorites-total.php:5
+msgid "<strong>%d</strong> person loves it"
+msgid_plural "<strong>%d</strong> people love it"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin Name of the plugin/theme
+msgid "Apus Realia Favorites"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://apusthemes.com/apus-realia-favorites/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Apus Realia Favorites is a plugin for Louisiana directory listing theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ApusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://apusthemes.com"
+msgstr ""
