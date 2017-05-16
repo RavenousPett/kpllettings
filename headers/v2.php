@@ -66,14 +66,6 @@
                             </div>
                         </div>
                         <div class="col-md-10">
-                            <?php
-                                if ( defined('APUSTHEME_REALIA_ACTIVED') && APUSTHEME_REALIA_ACTIVED ) {
-                                $create_page_id = get_theme_mod( 'realia_submission_create_page', null );
-                            ?>
-                                <div class="pull-right">
-                                    <a class="btn btn-theme btn-submit" href="<?php echo esc_url(get_permalink($create_page_id)); ?>"><?php esc_html_e('SUBMIT PROPERTY', 'preston'); ?></a>
-                                </div>
-                            <?php } ?>
                             <?php if ( has_nav_menu( 'primary' ) ) : ?>
                                 <div class="main-menu  pull-right">
                                     <nav
