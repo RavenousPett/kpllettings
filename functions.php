@@ -93,7 +93,7 @@ function apustheme_setup() {
 	) );
 
 	add_theme_support( 'realia-custom-styles' );
-	
+
 	add_image_size( 'property-thumbnail', 370, 260, true );
 	add_image_size( 'property-special1-thumbnail', 770, 550, true );
 	add_image_size( 'property-special2-thumbnail', 770, 260, true );
@@ -136,10 +136,10 @@ function apustheme_fonts_url() {
     $raleway = _x( 'on', 'Raleway font: on or off', 'preston' );
     $lato    = _x( 'on', 'Lato font: on or off', 'preston' );
     $crimson    = _x( 'on', 'Crimson font: on or off', 'preston' );
- 
+
     if ( 'off' !== $raleway || 'off' !== $lato || 'off' !== $crimson ) {
         $font_families = array();
- 
+
         if ( 'off' !== $raleway ) {
             $font_families[] = 'Raleway:400,500,600,700,800';
         }
@@ -154,15 +154,15 @@ function apustheme_fonts_url() {
             'family' => ( implode( '|', $font_families ) ),
             'subset' => urlencode( 'latin,latin-ext' ),
         );
- 		
+
  		$protocol = is_ssl() ? 'https:' : 'http:';
         $fonts_url = add_query_arg( $query_args, $protocol .'//fonts.googleapis.com/css' );
     }
- 
+
     return esc_url_raw( $fonts_url );
 }
 
-function apustheme_full_fonts_url() {  
+function apustheme_full_fonts_url() {
 	$protocol = is_ssl() ? 'https:' : 'http:';
 	wp_enqueue_style( 'apustheme-theme-fonts', apustheme_fonts_url(), array(), null );
 }
@@ -208,8 +208,10 @@ function apustheme_scripts() {
 	// load animate version 3.5.0
 	wp_enqueue_style( 'animate', $css_folder . '/animate'.$min.'.css', array(), '3.5.0' );
 
+    // load custom css
+    wp_enqueue_style( 'custom', $css_folder . '/custom.css', array() );
 
-	
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -228,7 +230,7 @@ function apustheme_scripts() {
 	wp_enqueue_script('infobox', $js_folder . '/maps/infobox.js', array('google-maps'), '1.1.13', false);
 	wp_enqueue_script('markerclusterer', $js_folder . '/maps/markerclusterer.js', array('google-maps'), '2.1.1', false);
 	wp_enqueue_script('apustheme-map-script', $js_folder . '/maps/script.js', array('jquery', 'google-maps', 'markerclusterer', 'infobox', 'mapescape', 'jquery-google-map'), '1.0', false);
-	
+
 	// main script
 	wp_register_script( 'apustheme-functions', $js_folder . '/functions'.$min.'.js', array( 'jquery' ), '20150330', true );
 	wp_localize_script( 'apustheme-functions', 'apustheme_ajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));
@@ -435,7 +437,7 @@ function apustheme_get_load_plugins() {
 	    'slug'                     => 'cmb2',
 	    'required'                 => true,
 	));
-	
+
 	$plugins[] =(array(
 		'name'                     => esc_html__('King Composer - Page Builder', 'preston'),
 	    'slug'                     => 'kingcomposer',
@@ -468,7 +470,7 @@ function apustheme_get_load_plugins() {
         'required'                 => true,
         'source'				   => esc_url( 'http://apusthemes.com/themeplugins/apus-realia-favorites.zip' )
 	));
-	
+
 	// for other plugins
 	$plugins[] =(array(
 		'name'                     => esc_html__( 'MailChimp for WordPress', 'preston' ),
