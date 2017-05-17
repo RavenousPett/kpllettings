@@ -18,26 +18,6 @@ $classes = ! empty( $instance['classes'] ) ? $instance['classes'] : '';
 <?php endif; ?>
 
 <div class="tabs <?php echo esc_attr( $classes );?>">
-	<ul class="tabs-navigation clearfix">
-
-		<?php
-		/**
-		 * realia_before_rent_sale_widget_navigation_items
-		 */
-		do_action( 'realia_before_rent_sale_widget_navigation_items', get_the_ID() );
-		?>
-
-		<li class="rent <?php if ( empty( $_GET['filter-contract'] ) || 'RENT' == $_GET['filter-contract'] ) : ?>active<?php endif; ?>"><a href="#<?php echo esc_attr( $args['widget_id'] ); ?>-rent"><?php echo esc_html__( 'For Rent', 'preston' ); ?></a></li>
-		<li class="sale <?php if ( ! empty( $_GET['filter-contract'] ) && 'SALE' == $_GET['filter-contract'] ) : ?>active<?php endif; ?>"><a href="#<?php echo esc_attr( $args['widget_id'] ); ?>-sale"><?php echo esc_html__( 'For Sale', 'preston' ); ?></a></li>
-
-		<?php
-		/**
-		 * realia_after_rent_sale_widget_navigation_items
-		 */
-		do_action( 'realia_after_rent_sale_widget_navigation_items', get_the_ID() );
-		?>
-
-	</ul>
 
 	<?php $fields = Realia_Filter::get_fields(); ?>
 
