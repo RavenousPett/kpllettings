@@ -1,3 +1,5 @@
-body{
-    color:red!important;
+.header-main-top .logo img{
+    position: absolute;
+    top: -5px;
+    height: 110px;
 }
