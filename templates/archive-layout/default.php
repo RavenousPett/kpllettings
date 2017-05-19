@@ -58,7 +58,7 @@ $sidebar_configs = apustheme_get_property_layout_configs();
         <div id="main-content" class="col-sm-12 <?php echo esc_attr($sidebar_configs['main']['class']); ?>">
             <main id="main" class="site-main content" role="main">
                 <?php if ( have_posts() ) : ?>
-                    
+
                     <?php
                     /**
                      * realia_before_property_archive
@@ -82,9 +82,6 @@ $sidebar_configs = apustheme_get_property_layout_configs();
                                     $url_rent = add_query_arg( 'filter-contract', 'RENT', remove_query_arg( 'filter-contract', $current_url ) );
                                     $url_sale = add_query_arg( 'filter-contract', 'SALE', remove_query_arg( 'filter-contract', $current_url ) );
                                 ?>
-                                <a <?php echo trim($current_contract == '' ? 'class="active"' : ''); ?> href="<?php echo esc_url($url); ?>" title="<?php echo esc_html__('All', 'preston'); ?>"><?php echo esc_html__('All', 'preston'); ?></a>
-                                <a <?php echo trim($current_contract == 'RENT' ? 'class="active"' : ''); ?> href="<?php echo esc_url($url_rent); ?>" title="<?php echo esc_html__('For Rent', 'preston'); ?>"><?php echo esc_html__('For Rent', 'preston'); ?></a>
-                                <a <?php echo trim($current_contract == 'SALE' ? 'class="active"' : ''); ?> href="<?php echo esc_url($url_sale); ?>" title="<?php echo esc_html__('For Sale', 'preston'); ?>"><?php echo esc_html__('For Sale', 'preston'); ?></a>
                             </div>
                             <?php echo Realia_Template_Loader::load('properties/sort'); ?>
                         </div>
@@ -111,7 +108,7 @@ $sidebar_configs = apustheme_get_property_layout_configs();
                             </div>
                         </div>
                     </div>
-                    
+
                     <?php
                     /**
                      * realia_after_property_archive
