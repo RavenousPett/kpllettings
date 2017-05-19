@@ -10330,7 +10330,7 @@ ul.socials li a {
   color: #d1348b;
 }
 .mod-property .properties-sort {
-  float: right;
+  float: left;
 }
 .rtl .mod-property .properties-sort {
   float: left;
