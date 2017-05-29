@@ -107,7 +107,7 @@ class Realia_Post_Type_Property {
 	public static function contract_options() {
 		return apply_filters( 'realia_contract_options', array(
 			''                      => '',
-			REALIA_CONTRACT_RENT    => __( 'Rent', 'realia' ),
+			REALIA_CONTRACT_RENT    => __( 'To Let', 'realia' ),
 			REALIA_CONTRACT_SALE    => __( 'Sale', 'realia' ),
 		) );
 	}

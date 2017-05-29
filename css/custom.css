@@ -1,5 +1,10 @@
 .header-main-top .logo img{
     position: absolute;
-    top: -5px;
-    height: 110px;
+    top: -10px;
+    height: 145px;
+}
+
+
+.sticky-header-hidden .header-main-top .logo img{
+    display: none;
 }
