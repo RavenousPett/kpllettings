@@ -4,7 +4,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<?php $agent_email = get_post_meta( get_the_ID(), REALIA_AGENT_PREFIX . 'email', true ); ?>
+<?php
+
+// $agent_email = get_post_meta( get_the_ID(), REALIA_AGENT_PREFIX . 'email', true );
+$agent_email = 'kpllettings@de-velop.co.uk';
+
+?>
 
 <?php if ( ! empty( $_POST ) && array_key_exists( 'contact-form', $_POST ) ) : ?>
     <?php

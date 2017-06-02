@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				            <?php endif; ?>
 			            </div><!-- /.agent-row-properties -->
 					<?php endif; ?>
-					
+
 		            <h2 class="agent-row-title entry-title">
 			            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 		            </h2>
@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		            	Agencies
 		            </div>
 		            <div class="description">
-						<?php echo apustheme_substring( get_the_excerpt(), 18, '.' ); ?>
+						<?php echo apustheme_substring( get_the_excerpt(), 18, '...' ); ?>
 					</div>
                     <a href="<?php the_permalink() ?>" class="view-more">
                         <?php esc_html_e( 'CONTACT NOW', 'preston' ); ?>
