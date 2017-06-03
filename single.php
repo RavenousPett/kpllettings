@@ -32,7 +32,7 @@ apustheme_render_breadcrumbs();
 							 * (where ___ is the post format) and that will be used instead.
 							 */
 							get_template_part( 'post-formats/content', get_post_format() );
-							
+
 							//Previous/next post navigation.
 							the_post_navigation( array(
 								'next_text' => '<span class="meta-nav" aria-hidden="true">' . esc_html__( 'Next', 'preston' ) . '</span> ' .
@@ -59,7 +59,7 @@ apustheme_render_breadcrumbs();
 					?>
 				</div><!-- #content -->
 			</div><!-- #primary -->
-		</div>	
+		</div>
 		<?php if ( isset($sidebar_configs['right']) ) : ?>
 			<div class="<?php echo esc_attr($sidebar_configs['right']['class']) ;?>">
 			  	<aside class="sidebar sidebar-right" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
@@ -69,6 +69,6 @@ apustheme_render_breadcrumbs();
 			  	</aside>
 			</div>
 		<?php endif; ?>
-	</div>	
+	</div>
 </section>
 <?php get_footer(); ?>

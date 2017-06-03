@@ -56,7 +56,7 @@ apustheme_render_breadcrumbs();
 			  	</aside>
 			</div>
 		<?php endif; ?>
-		
+
 	</div>
 </section>
 <?php get_footer(); ?>

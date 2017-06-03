@@ -9,7 +9,7 @@ $sidebar_configs = apustheme_get_agent_layout_configs();
 apustheme_render_breadcrumbs();
 
 ?>
-<section id="main-container" class="main-content <?php echo apply_filters('apustheme_agent_content_class', 'container');?> inner">
+<section id="main-container" class="agent-container main-content <?php echo apply_filters('apustheme_agent_content_class', 'container');?> inner">
     <div class="row">
         <?php if ( isset($sidebar_configs['left']) ) : ?>
             <div class="<?php echo esc_attr($sidebar_configs['left']['class']) ;?>">
@@ -25,7 +25,7 @@ apustheme_render_breadcrumbs();
                 <div class="row">
                     <?php if ( have_posts() ) : ?>
                         <?php while ( have_posts() ) : the_post(); ?>
-                            <div class="col-md-4">        
+                            <div class="col-md-4">
                                 <?php echo Realia_Template_Loader::load( 'agents/row' ); ?>
                             </div>
                         <?php endwhile; ?>

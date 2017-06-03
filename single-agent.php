@@ -7,7 +7,7 @@ $sidebar_configs = apustheme_get_agent_layout_configs();
 apustheme_render_breadcrumbs();
 ?>
 
-<section id="main-container" class="main-content <?php echo apply_filters( 'apustheme_agent_content_class', 'container' ); ?> inner">
+<section id="main-container" class="single-agent-content main-content <?php echo apply_filters( 'apustheme_agent_content_class', 'container' ); ?> inner">
     <div class="row">
         <?php if ( isset($sidebar_configs['left']) ) : ?>
             <div class="<?php echo esc_attr($sidebar_configs['left']['class']) ;?>">
@@ -30,7 +30,7 @@ apustheme_render_breadcrumbs();
                     ?>
                 </div><!-- #content -->
             </div><!-- #primary -->
-        </div>  
+        </div>
         <?php if ( isset($sidebar_configs['right']) ) : ?>
             <div class="<?php echo esc_attr($sidebar_configs['right']['class']) ;?>">
                 <aside class="sidebar sidebar-right" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
@@ -40,6 +40,6 @@ apustheme_render_breadcrumbs();
                 </aside>
             </div>
         <?php endif; ?>
-    </div>  
+    </div>
 </section>
 <?php get_footer(); ?>
