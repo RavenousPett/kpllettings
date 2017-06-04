@@ -1,5 +1,7 @@
 <?php if ( empty( $instance['hide_price'] ) ) : ?>
 	<div class="row">
+        <?php
+        // Would need to strip these fields out and hard code to be one drop down select box with the two and from value. Name would be something like filter-price-range-id. The value could be the id of an array key which contains the to and from values 
 		<div class="form-group col-sm-6 col-xs-12">
 			<?php if ( 'labels' == $input_titles ) : ?>
 				<label for="<?php echo ! empty( $field_id_prefix ) ? $field_id_prefix : ''; ?><?php echo esc_attr( $args['widget_id'] ); ?>_price_from"><?php echo esc_html__( 'Price from', 'preston' ); ?></label>

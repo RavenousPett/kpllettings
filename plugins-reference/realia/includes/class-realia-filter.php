@@ -269,6 +269,8 @@ class Realia_Filter {
 		$taxonomies = array();
 		$ids = null;
 
+        // Add in functionality here to set $params['filter-price-from'] and $params['filter-price-to'] to the values of an array, the of which would be specified by $params['filter-price-range-id']
+
 		// Property title
 		if ( ! empty( $params['filter-property-title'] ) ) {
 			$title_ids = $wpdb->get_col( $wpdb->prepare( "SELECT DISTINCT ID FROM {$wpdb->posts} WHERE post_status = \"publish\" AND post_title LIKE '%s'", '%' . esc_attr( $_GET['filter-property-title'] ) . '%' ) );
