@@ -12,7 +12,7 @@ if (!empty($socials)) {
 		<ul class="social list-inline">
 		    <?php foreach( $socials as $item): ?>
                 <li>
-                    <a href="<?php echo esc_url($item->url);?>" title="<?php echo esc_attr($item->title); ?>">
+                    <a href="<?php echo esc_url($item->url);?>" title="<?php echo esc_attr($item->title); ?>" target="_blank">
                         <?php if ( isset($item->image) && $item->image ): ?>
 							<?php $img = wp_get_attachment_image_src($item->image, 'full'); ?>
 							<?php if (isset($img[0]) && $img[0]) { ?>
