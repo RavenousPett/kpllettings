@@ -24,22 +24,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<?php echo Realia_Template_Loader::load('single/gallery'); ?>
 
 				<div class="property-content">
-					<?php 
+					<?php
 					$content_layout = apustheme_get_config('property_single_content_layout', 'default');
 					if (empty($content_layout)) {
 						$content_layout = 'default';
 					}
 					?>
 					<?php echo Realia_Template_Loader::load('single-layout/content-layout/'.$content_layout); ?>
-					
+
 					<div class="property-position">
 						<h3><?php echo esc_html__( 'Position', 'preston' ); ?></h3>
 						<?php echo Realia_Template_Loader::load('single/map'); ?>
 					</div>
-					<?php echo Realia_Template_Loader::load('single/floor'); ?>
 					<!-- SUBPROPERTIES -->
 					<?php echo Realia_Template_Loader::load('single/subproperties'); ?>
-					
+
 			        <!-- SIMILAR PROPERTIES -->
 			        <?php echo Realia_Template_Loader::load('single/similar'); ?>
 

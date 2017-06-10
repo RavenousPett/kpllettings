@@ -11,8 +11,8 @@ if ( ! defined( 'ABSPATH' ) ) {
             </a>
         </li>
 		<li>
-			<a href="#tab-content-detail" data-toggle="tab">
-                <?php echo esc_html__( 'Detail', 'preston' ); ?>
+			<a href="#tab-content-floor-plan" data-toggle="tab">
+                <?php echo esc_html__( 'Floor plan', 'preston' ); ?>
             </a>
         </li>
         <li>
@@ -41,9 +41,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<!-- Description -->
 			<?php echo Realia_Template_Loader::load('single/description'); ?>
 		</div>
-		<div id="tab-content-detail" class="tab-pane">
-			<!-- Overview | Detail -->
-			<?php echo Realia_Template_Loader::load('single/overview'); ?>
+        <div id="tab-content-floor-plan" class="tab-pane">
+			<!-- Floor plan -->
+            <?php echo Realia_Template_Loader::load('single/floor'); ?>
 		</div>
 		<div id="tab-content-video" class="tab-pane">
 			<!-- Overview | Detail -->
