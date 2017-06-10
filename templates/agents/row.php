@@ -37,7 +37,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		            	Agencies
 		            </div>
 		            <div class="description">
-						<?php echo apustheme_substring( get_the_excerpt(), 18, '.' ); ?>
 					</div>
                     <a href="<?php the_permalink() ?>" class="view-more">
                         <?php esc_html_e( 'View Profile', 'preston' ); ?><i class="fa fa-angle-right" aria-hidden="true"></i>
