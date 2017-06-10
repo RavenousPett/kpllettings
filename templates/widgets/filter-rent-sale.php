@@ -32,7 +32,7 @@ $classes = ! empty( $instance['classes'] ) ? $instance['classes'] : '';
 					<?php endif; ?>
 				<?php endforeach; ?>
 
-				<input type="hidden" name="filter-contract" value="RENT">
+				<!-- <input type="hidden" name="filter-contract" value="RENT"> -->
 
 				<?php if ( ! empty( $instance['sort_rent'] ) ) : ?>
 					<?php
