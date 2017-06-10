@@ -181,6 +181,16 @@ class Realia_Post_Type_Property {
 					'id'                => REALIA_PROPERTY_PREFIX . 'plans',
 					'type'              => 'file_list',
 				),
+                array(
+                    'name'              => __( 'EPC', 'realia' ),
+                    'id'                => REALIA_PROPERTY_PREFIX . 'epc',
+                    'type'              => 'file_list',
+                ),
+                array(
+                    'name'              => __( 'Key features', 'realia' ),
+                    'id'                => REALIA_PROPERTY_PREFIX . 'key-features',
+                    'type'              => 'textarea',
+                ),
 				array(
 					'name'              => __( 'Video link', 'realia' ),
 					'id'                => REALIA_PROPERTY_PREFIX . 'video',
