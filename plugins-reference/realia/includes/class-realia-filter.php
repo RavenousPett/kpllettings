@@ -269,7 +269,17 @@ class Realia_Filter {
 		$taxonomies = array();
 		$ids = null;
 
-        // Add in functionality here to set $params['filter-price-from'] and $params['filter-price-to'] to the values of an array, the of which would be specified by $params['filter-price-range-id']
+        // Initialize price rance array
+        $priceRangesArray = array(
+            1  => array(0, 1000000),
+            2  => array(0, 1100),
+            3  => array(1100, 2000),
+            4  => array(2000, 1000000)
+        );
+
+        // Set $params['filter-price-from'] and $params['filter-price-to'] to the values of the $priceRangesArray. Get the key based on $params['filter-price-range-id']
+        $params['filter-price-from'] = $priceRangesArray[$params['filter-price-range-id']][0];
+        $params['filter-price-to'] = $priceRangesArray[$params['filter-price-range-id']][1];
 
 		// Property title
 		if ( ! empty( $params['filter-property-title'] ) ) {
