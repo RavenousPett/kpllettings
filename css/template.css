@@ -10006,6 +10006,11 @@ ul.socials li a {
   margin-left: inherit;
 }
 
+.agency-social-networks a:hover,
+.agent-social-networks a:hover {
+  color: #d1348b;
+}
+
 .agent-detail {
   padding: 40px;
   border: 1px solid #eeeeee;
@@ -10176,7 +10181,7 @@ ul.socials li a {
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
-  background: #ff6c00;
+  background: #d1348b;
   padding: 3px 10px;
   display: inline-block;
 }
