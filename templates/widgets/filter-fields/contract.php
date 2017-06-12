@@ -8,6 +8,7 @@
 			<option value=""><?php echo esc_html__( 'All contracts', 'preston' ); ?></option>
 			<option value="<?php echo REALIA_CONTRACT_SALE; ?>" <?php if ( ! empty( $_GET['filter-contract'] ) && REALIA_CONTRACT_SALE == $_GET['filter-contract'] ) : ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Sale', 'preston' ); ?></option>
 			<option value="<?php echo REALIA_CONTRACT_RENT; ?>" <?php if ( ! empty( $_GET['filter-contract'] ) && REALIA_CONTRACT_RENT == $_GET['filter-contract'] ) : ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'To Let', 'preston' ); ?></option>
+            <option value="<?php echo REALIA_CONTRACT_LET_BY; ?>" <?php if ( ! empty( $_GET['filter-contract'] ) && REALIA_CONTRACT_LET_BY == $_GET['filter-contract'] ) : ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Let By', 'preston' ); ?></option>            
 		</select>
 	</div><!-- /.form-group -->
 <?php endif; ?>

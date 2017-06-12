@@ -109,6 +109,7 @@ class Realia_Post_Type_Property {
 			''                      => '',
 			REALIA_CONTRACT_RENT    => __( 'To Let', 'realia' ),
 			REALIA_CONTRACT_SALE    => __( 'Sale', 'realia' ),
+            REALIA_CONTRACT_LET_BY    => __( 'Let By', 'realia' ),            
 		) );
 	}
 
