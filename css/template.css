@@ -5035,6 +5035,10 @@ footer .wpb_single_image:before, footer .wpb_single_image:after {
   padding: 0;
 }
 
+.contact-info .media-left{
+    width: 37px;
+}
+
 .kc-elm.list-post-type .thumbnail-img {
   float: left;
   margin-right: 30px;
