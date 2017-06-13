@@ -11260,6 +11260,9 @@ ul.socials li a {
 .sidebar-detail .agent-small-inner .agent-small-content {
   overflow: hidden;
 }
+.sidebar-detail .agent-small-inner .agent-small-content .agent-small-email a{
+  font-size: 10px;
+}
 .sidebar-detail .agent-small-inner .agent-small-title {
   font-size: 14px;
   margin: 0 0 3px;
