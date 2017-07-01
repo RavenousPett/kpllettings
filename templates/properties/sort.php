@@ -12,14 +12,13 @@
 		<?php endforeach; ?>
 
 		<div class="properties-sort-inner">
-			
+
 
 			<div class="properties-filter-sort-by-wrapper">
 				<select class="form-control" name="filter-sort-by">
 					<option value=""><?php echo esc_html__( 'Sort by', 'preston' ); ?></option>
 					<option value="price" <?php if ( ! empty( $_GET['filter-sort-by'] ) && 'price' == $_GET['filter-sort-by'] ) :   ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Price', 'preston' ); ?></option>
 					<option value="title" <?php if ( ! empty( $_GET['filter-sort-by'] ) && 'title' == $_GET['filter-sort-by'] ) :   ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Title', 'preston' ); ?></option>
-					<option value="published" <?php if ( ! empty( $_GET['filter-sort-by'] ) && 'published' == $_GET['filter-sort-by'] ) :   ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Published', 'preston' ); ?></option>
 				</select>
 			</div><!-- /.filter-sort-by-wrapper -->
 
