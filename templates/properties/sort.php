@@ -22,6 +22,15 @@
 				</select>
 			</div><!-- /.filter-sort-by-wrapper -->
 
+            <div class="properties-filter-sort-by-wrapper">
+                <select class="form-control" name="filter-contract">
+                    <option value=""><?php echo esc_html__( 'Contract', 'preston' ); ?></option>
+                    <option value="TO LET" <?php if ( ! empty( $_GET['filter-contract'] ) && 'TO LET' == $_GET['filter-contract'] ) :   ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'To Let', 'preston' ); ?></option>
+                    <option value="LET BY" <?php if ( ! empty( $_GET['filter-contract'] ) && 'LET BY' == $_GET['filter-contract'] ) :   ?>selected="selected"<?php endif; ?>><?php echo esc_html__( 'Let By', 'preston' ); ?></option>
+
+                </select>
+            </div><!-- /.filter-sort-by-wrapper -->
+
 			<div class="properties-filter-sort-order-wrapper">
 				<select class="form-control" name="filter-sort-order">
 					<option value=""><?php echo esc_html__( 'Order', 'preston' ); ?></option>
