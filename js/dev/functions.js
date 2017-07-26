@@ -1079,7 +1079,7 @@ function makeArray( obj ) {
             $(".owl-carousel[data-carousel=owl]").each( function(){
                 var config = {
                     loop: false,
-                    nav: $(this).data( 'nav' ),
+                    nav: true,
                     dots: $(this).data( 'pagination' ),
                     items: 4,
                     navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']
