@@ -3883,6 +3883,13 @@ option {
     top: -185px;
 }
 
+@media only screen and (max-width : 736px) {
+    .widget-testimonials .owl-controls .owl-dots{
+        margin-top: 230px;
+    }
+}
+
+
 .owl-carousel .owl-controls .owl-nav .owl-next {
   left: inherit;
   right: 15px;
