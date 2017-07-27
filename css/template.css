@@ -3887,6 +3887,9 @@ option {
     .widget-testimonials .owl-controls .owl-dots{
         margin-top: 230px;
     }
+    .widget-testimonials .owl-carousel .owl-controls .owl-nav .owl-prev, .widget-testimonials .owl-carousel .owl-controls .owl-nav .owl-next{
+        top: -70px;
+    }
 }
 
 
