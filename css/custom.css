@@ -9,8 +9,11 @@
     display: none;
 }
 
-/* Dirty hack to prent Serivces looking 'active' */
-.navbar-nav.megamenu > li.active.menu-item-2598 > a
+/* Dirty hack to prent Serivces and Testimonials looking 'active' */
+.navbar-nav.megamenu > li.active.menu-item-2598 > a,
+#main-mobile-menu li.active.menu-item-2598 > a,
+.navbar-nav.megamenu > li.active.menu-item-2777 > a,
+#main-mobile-menu li.active.menu-item-2777 > a
 {
     color: #000000;
 }

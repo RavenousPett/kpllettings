@@ -1311,7 +1311,7 @@ jQuery( document).ready( function($){
 
     // Smooth scrolling
     var smooth_scroll = function () {
-        jQuery('.smooth-scroll a, .menu-item-2598 a').on('click', function () {
+        jQuery('.smooth-scroll a, .menu-item-2598 a, .menu-item-2777 a').on('click', function () {
             console.log('clicked');
             jQuery('html, body').animate({
                 scrollTop: $( $.attr(this, 'title') ).offset().top
